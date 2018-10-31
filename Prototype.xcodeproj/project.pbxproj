@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA4AD1652189A3D700137D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD53D81218879510087C7DF /* Assets.xcassets */; };
 		DAD53D7B2188794B0087C7DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD53D7A2188794B0087C7DF /* AppDelegate.swift */; };
 		DAD53D7D2188794B0087C7DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD53D7C2188794B0087C7DF /* ViewController.swift */; };
 		DAD53D802188794B0087C7DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD53D7E2188794B0087C7DF /* Main.storyboard */; };
-		DAD53D82218879510087C7DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD53D81218879510087C7DF /* Assets.xcassets */; };
 		DAD53D85218879510087C7DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD53D83218879510087C7DF /* LaunchScreen.storyboard */; };
 		DAD53D90218879510087C7DF /* PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD53D8F218879510087C7DF /* PrototypeTests.swift */; };
 		DAD53D9B218879510087C7DF /* PrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD53D9A218879510087C7DF /* PrototypeUITests.swift */; };
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAD53D85218879510087C7DF /* LaunchScreen.storyboard in Resources */,
-				DAD53D82218879510087C7DF /* Assets.xcassets in Resources */,
+				DA4AD1652189A3D700137D96 /* Assets.xcassets in Resources */,
 				DAD53D802188794B0087C7DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,12 +433,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2AJ8JWFA9;
 				INFOPLIST_FILE = Prototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Mthril.com.Prototype;
+				PRODUCT_BUNDLE_IDENTIFIER = MeThrill.com.Prototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,12 +451,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2AJ8JWFA9;
 				INFOPLIST_FILE = Prototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Mthril.com.Prototype;
+				PRODUCT_BUNDLE_IDENTIFIER = MeThrill.com.Prototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
